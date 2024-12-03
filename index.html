@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dmitrij Titarenko</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cursor.css">
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@v0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+</head>
+<body>
+    <div class="section full-screen-video">
+        <video autoplay loop muted playsinline class="background-video">
+            <source src="Comp 1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div id="webgl-overlay"></div>
+        <div class="noise-overlay"></div>
+        <div class="header">
+            <ul class="menu">
+                <li>ПОСЛУГИ</li>
+                <li><img src="logo.svg"></li>
+                <li>КОНТАКИ</li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1 class="main-title">Майбутнє бізнесу<br>починається тут</h1>
+            <p class="sub-title">Від ідеї до результату — ми створюємо дизайн і<br>розробку, які допомагають вашому бізнесу рости.</p>
+        </div>
+        <img class="arrow" src="arrow-down.svg">
+    </div>
+    <script src="cursor.js"></script>
+</body>
+</html>
